@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Linked styles below -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Press+Start+2P&family=Teko:wght@300&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/queries.css" />
+    <link rel="stylesheet" href="../styles/animate.css" />
+    <title>Get in touch!</title>
+    <link rel="shortcut icon" href="../imgs/rjdfavIcon.jpeg" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="nav">
+      <a href="../index.html">
+        <img class="logo" src="../imgs/rjdlogo.png" alt="Company logo" />
+      </a>
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-2x fa-bars"></i>
+      </button>
+      <ul class="navbar" id="nav-list">
+        <a class="link" href="../pages/about.html">
+          <li class="nav-item">ABOUT ME</li></a
+        >
+        <a class="link" href="../pages/services.html">
+          <li class="nav-item">SERVICES</li></a
+        >
+        <a class="link" href="../pages/work.html">
+          <li class="nav-item">MY WORK</li></a
+        >
+        <a class="link" href="../pages/contact.html"
+          ><li class="nav-item active">GET IN TOUCH</li></a
+        >
+      </ul>
+    </nav>
+    <!-- End of Nav -->
+
+    <div class="first-container">
+      <section>
+        <h1 class="slogan-black">LET'S GET IN TOUCH!</h1>
+        <form class="contact-form" action="../scripts/mail.php" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+          <label for="subject">Subject:</label>
+          <input type="text" name="subject" id="subject" />
+          <label for="message">Message:</label>
+          <textarea name="message" cols="50" rows="5"></textarea>
+          <div
+            class="g-recaptcha recaptcha"
+            data-sitekey="6LdKlVskAAAAAB3ZbIzeFky6tueSJWrbJVXTuUe8"
+            data-callback="callback"></div>
+          <!-- <input class="submit-button" type="submit" value="Send"  /> -->
+          <button
+            id="submit-button"
+            class="submit-button"
+            type="submit"
+            disabled>
+            Send
+          </button>
+        </form>
+      </section>
+      <!-- End of Form -->
+    </div>
+    <!-- data-action="LOGIN" -->
+
+    <!-- JS for enabling send button -->
+    <script>
+      function callback() {
+        const submitButton = document.getElementById("submit-button");
+        submitButton.removeAttribute("disabled");
+      }
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer-p">RYAN DOOLEY</p>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/ryan-dooley-1713541a8/?original_referer="
+        ><i style="color: white" class="fa-brands fa-2x fa-linkedin"></i
+      ></a>
+      <p class="footer-p">WATERLOO, ONTARIO</p>
+      <p class="footer-p">ALL RIGHTS RESERVED &copy 2023.</p>
+    </footer>
+
+    <!-- Scripts Below -->
+    <script
+      src="https://kit.fontawesome.com/d2c157295a.js"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://www.google.com/recaptcha/enterprise.js"
+      async
+      defer></script>
+    <script src="../scripts/hamburger.js"></script>
+    <script defer src="../scripts/animate.js"></script>
+  </body>
+</html>
