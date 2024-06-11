@@ -32,7 +32,7 @@ echo'
     <!-- NavBar -->
     <nav class="nav">
       <a href="../index.html">
-        <img style="max-height: 70px;" class="logo" src="../imgs/rjdlogo.png" alt="Company logo" />
+        <img style="max-height: 70px;" class="logo" src="../imgs/logo.png" alt="Company logo" />
       </a>
       <button class="hamburger" id="hamburger">
         <i class="fas fa-2x fa-bars"></i>
