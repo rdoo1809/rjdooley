@@ -5,12 +5,6 @@ import navIcon2 from "../assets/img/nav-icon2.png";
 import navIcon3 from "../assets/img/nav-icon3.png";
 
 export const Footer = () => {
-
-  const rowStyle = {
-  marginTop: '2rem'
-  }
-    
-
   return (
     <footer className="footer">
       <Container >
@@ -19,7 +13,7 @@ export const Footer = () => {
             <img src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <div style={rowStyle} className="social-icon">
+            <div className="social-icon">
               <a href="https://github.com/rdoo1809" target="_blank"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://www.linkedin.com/in/ryan-dooley-1713541a8/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://g.dev/rdooley" target="_blank"><img src={navIcon3} alt="Icon" /></a>
