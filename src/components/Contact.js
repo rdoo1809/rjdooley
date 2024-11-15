@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import {useState} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -69,8 +69,6 @@ export const Contact = () => {
                 <h3>Please do not hesitate to contact me</h3>
                 <br></br>
                 <h3><a style={myStyle} target="_blank" href="mailto:rdooley5@outlook.com?subject=Hi%20Ryan...">rdooley5@outlook.com</a></h3>
-
-                
               </div>}
             </TrackVisibility>
           </Col>

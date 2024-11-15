@@ -2,23 +2,23 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {NavBar} from "./components/NavBar";
 import {Banner} from "./components/Banner";
-import {Projects} from "./components/Projects";
+import {Skills} from "./components/Skills";
+import {Footer} from "./components/Footer";
+import {Contact} from "./components/Contact";
 
 function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <Banner />
-        {/* <Newsletter /> */}
-        <Projects/>
-        <br></br>
-        <br></br>
-        <br></br>
-        {/*<Skills />
-      <Contact />
-      <Footer /> */}
-    </div>
-  );
+    return (
+        <div className="App">
+            <NavBar/>
+            <Banner/>
+            {/*<Newsletter/>*/}
+            <Skills/>
+            {/*<BannerTest/>*/}
+            {/*<Projects/>*/}
+            <Contact/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
