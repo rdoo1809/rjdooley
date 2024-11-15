@@ -1,11 +1,7 @@
-import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import {useEffect, useState} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import headerImg from "../assets/img/heroImg.PNG";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
-
-
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -54,24 +50,15 @@ export const Banner = () => {
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+            <div>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Ryan - `} <span className="txt-rotate" dataPeriod="50" data-rotate='[ "Software & Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  {/* <p>I am a co-op student seeking my first job in the field of technology and development. I am ready to bring my unique blend of skills to your team, contributing to meaningful projects while growing alongside your organisation.</p> */}
-                  {/* <button  onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
-                  
-              </div>}
-            </TrackVisibility>
+            </div>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+            <div>
                   <img src={headerImg} alt="Header Img"/>
-                </div>}
-            </TrackVisibility>
+            </div>
           </Col>
         </Row>
       </Container>
