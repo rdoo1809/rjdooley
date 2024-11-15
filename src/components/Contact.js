@@ -14,9 +14,7 @@ export const Contact = () => {
                             <h2>Get In Touch</h2>
                             <h3>I am always looking to connect with like minded individuals, mentors, and people who
                                 enjoy development as much as I do.</h3>
-                            <br></br>
                             <h3>Please do not hesitate to contact me</h3>
-                            <br></br>
                             <h3>
                                 <a target="_blank"
                                    href="mailto:rdooley5@outlook.com?subject=Hi%20Ryan...">rdooley5@outlook.com</a>
