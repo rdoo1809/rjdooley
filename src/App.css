@@ -284,7 +284,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 8px 10px;
     background: linear-gradient(
             90.21deg,
-            rgba(167, 173, 183, 0.5) -5.91%,
+            rgba(0, 0, 0, 0.5) -5.91%,
             rgba(98, 110, 131, 0.5) 111.58%
     );
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -428,11 +428,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 30px;
-    color: #3B2F2F;
+    color: white;
 }
 
-.contact h3 {
-    color: black;
+.contact h3 a {
+    color: white;
 }
 
 
