@@ -1,0 +1,93 @@
+/* Hamburger Queries */
+@media only screen and (min-width: 701px) {
+    .hamburger {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        list-style-type: none;
+    }
+}
+
+/* End of Burger */
+
+/* MAX WIDTH 1150px */
+@media only screen and (max-width: 1150px) {
+    .about-img {
+        height: 350px;
+    }
+
+    .about-cont {
+        min-height: 900px;
+    }
+}
+
+/* MAX WIDTH 701PX */
+@media only screen and (max-width: 701px) {
+    /* Homescreen//shared queries */
+    .navbar {
+        width: 100%;
+        padding-right: 80px;
+        justify-content: space-evenly;
+    }
+
+    .slogan {
+        font-size: 2rem;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .hero-img-cont {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+
+    .hero-words {
+        width: 100%;
+    }
+
+    .home-first-cont {
+        flex-wrap: wrap;
+    }
+
+    /* About Queries */
+    .about-img {
+        height: 350px;
+    }
+
+    .about-cont {
+        min-height: 800px;
+    }
+
+    /* Service Queries */
+    .serv-domain-word-cont {
+        padding: 1rem 2rem;
+    }
+}
+
+/* MAX WIDTH 501px */
+@media only screen and (max-width: 501px) {
+    /* About Queries */
+    .about-img {
+        height: 200px;
+    }
+
+    .about-cont {
+        flex-wrap: wrap;
+    }
+
+    .about-words-cont {
+        width: 100%;
+    }
+
+    /* Decrease slogan size */
+    .small-slogan {
+        font-size: 2.2rem;
+    }
+}
