@@ -280,6 +280,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     display: inline-block;
 }
 
+.tagline {
+    padding: 8px 10px;
+    background: linear-gradient(
+            90.21deg,
+            rgba(167, 173, 183, 0.5) -5.91%,
+            rgba(98, 110, 131, 0.5) 111.58%
+    );
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: inline-block;
+}
+
 .banner h1 {
     font-size: 65px;
     font-weight: 700;
@@ -438,11 +449,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 /************ Timeline Css ************/
-.timeline-container {
-    /*background-color: #e6e8ea;*/
-    /*background-color: white;*/
-    overflow-x: hidden;
-}
+/*.timeline-container {*/
+/*    overflow-x: hidden;*/
+/*}*/
 
 .year-p {
     color: white !important;
@@ -450,8 +459,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .single-timeline-area {
     position: relative;
-    z-index: 1;
-    padding-left: 180px;
+    padding-left: 8rem;
+    padding-right: 4rem;
 }
 
 @media only screen and (max-width: 575px) {
@@ -462,7 +471,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .single-timeline-area .timeline-date {
     position: absolute;
-    width: 180px;
+    width: 120px;
     height: 100%;
     top: 0;
     left: 0;
@@ -502,7 +511,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 11px;
     height: 11px;
     border-radius: 50%;
-    background-color: #f1c40f;
+    background-color: #720c0c;
     content: "";
     top: 50%;
     right: 26px;
@@ -541,7 +550,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     transition-duration: 500ms;
     width: 30px;
     height: 30px;
-    background-color: #f1c40f;
+    background-color: #720c0c;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 30px;
     flex: 0 0 30px;
@@ -573,5 +582,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .single-timeline-area .single-timeline-content:hover .timeline-text h6,
 .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
-    color: #3f43fd;
+    color: #720c0c;
+
 }

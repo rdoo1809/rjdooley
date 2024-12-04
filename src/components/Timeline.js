@@ -1,4 +1,5 @@
 import 'animate.css';
+import RDooley_Resume from '../assets/docs/RDooleyResume.pdf'
 
 export const Timeline = () => {
     return (
@@ -16,6 +17,7 @@ export const Timeline = () => {
 
             {/* 2024 */}
             <div className="single-timeline-area">
+
                 <div
                     className="timeline-date wow fadeInLeft"
                     data-wow-delay="0.1s"
@@ -27,6 +29,7 @@ export const Timeline = () => {
                 >
                     <p className={"year-p"}>2024</p>
                 </div>
+
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-4">
                         <div
@@ -294,6 +297,16 @@ export const Timeline = () => {
                                 <p>2016 - 2020 </p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row justify-content-center">
+                <div className="col-12 col-sm-8 col-lg-6">
+                    <div className="section_heading text-center">
+                        <h3>Want to download a PDF resume?</h3>
+                        <h6><a href={RDooley_Resume} download='RDooley_Resume'>Click here</a></h6>
+                        <div className="line"></div>
                     </div>
                 </div>
             </div>
