@@ -1,23 +1,34 @@
 {
   "files": {
-    "main.css": "/rjdooley/static/css/main.45d99649.css",
-    "main.js": "/rjdooley/static/js/main.6b40cf22.js",
+    "main.css": "/rjdooley/static/css/main.365b7084.css",
+    "main.js": "/rjdooley/static/js/main.adf2cc46.js",
     "static/media/heroImg.PNG": "/rjdooley/static/media/heroImg.1f3d3911379dd7184a9d.PNG",
     "static/media/western-banner.png": "/rjdooley/static/media/western-banner.1794fe001e67d9883257.png",
+    "static/media/project-img2.png": "/rjdooley/static/media/project-img2.6a10f26176b81b669b7e.png",
+    "static/media/project-img1.png": "/rjdooley/static/media/project-img1.98cf4e35af04fbb429ae.png",
     "static/media/banner-bg.png": "/rjdooley/static/media/banner-bg.fad03bfd2a71e1d8eb25.png",
+    "static/media/project-img3.png": "/rjdooley/static/media/project-img3.3cd69d7a1f33158b7349.png",
+    "static/media/softDev.png": "/rjdooley/static/media/softDev.7ec770695cb7ffc0a82f.png",
+    "static/media/analysis.png": "/rjdooley/static/media/analysis.636fca47272394638284.png",
+    "static/media/contact-img.png": "/rjdooley/static/media/contact-img.0891f1ea634187374997.png",
+    "static/media/design.png": "/rjdooley/static/media/design.771286c80971e71dc82f.png",
     "static/media/CentraNo2-Bold.ttf": "/rjdooley/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/rjdooley/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/nav-icon2.png": "/rjdooley/static/media/nav-icon2.ba57b0e0a8e0600a63e3.png",
     "static/media/CentraNo2-Book.ttf": "/rjdooley/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/logo.png": "/rjdooley/static/media/logo.aa9b93dd05b561715fa5.png",
-    "static/media/contact-img.svg": "/rjdooley/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/team.png": "/rjdooley/static/media/team.f4e17e915bd79f8d0202.png",
+    "static/media/webDev.png": "/rjdooley/static/media/webDev.d2d354c924fb9920c739.png",
+    "static/media/revicons.eot": "/rjdooley/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/rjdooley/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/rjdooley/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/rjdooley/index.html",
     "static/media/nav-icon1.svg": "/rjdooley/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.45d99649.css.map": "/rjdooley/static/css/main.45d99649.css.map",
-    "main.6b40cf22.js.map": "/rjdooley/static/js/main.6b40cf22.js.map"
+    "main.365b7084.css.map": "/rjdooley/static/css/main.365b7084.css.map",
+    "main.adf2cc46.js.map": "/rjdooley/static/js/main.adf2cc46.js.map"
   },
   "entrypoints": [
-    "static/css/main.45d99649.css",
-    "static/js/main.6b40cf22.js"
+    "static/css/main.365b7084.css",
+    "static/js/main.adf2cc46.js"
   ]
 }
