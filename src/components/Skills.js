@@ -1,5 +1,10 @@
 import 'react-multi-carousel/lib/styles.css';
-
+import image1 from "../assets/img/softDev.png";
+import image2 from "../assets/img/webDev.png";
+import image3 from "../assets/img/design.png";
+import image4 from "../assets/img/analysis.png";
+import image5 from "../assets/img/team.png";
+import Carousel from 'react-multi-carousel';
 
 export const Skills = () => {
   const responsive = {
@@ -27,31 +32,32 @@ export const Skills = () => {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    {/*<div className="skill-bx wow zoomIn">*/}
-                    {/*    <h2>Skills</h2>*/}
-                    {/*    <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">*/}
-                    {/*        <div className="item">*/}
-                    {/*            <img src={image1} alt="Image" />*/}
-                    {/*            <h5>Software Development</h5>*/}
-                    {/*        </div>*/}
-                    {/*        <div className="item">*/}
-                    {/*            <img src={image2} alt="Image" />*/}
-                    {/*            <h5>Web Development</h5>*/}
-                    {/*        </div>*/}
-                    {/*        <div className="item">*/}
-                    {/*            <img src={image3} alt="Image" />*/}
-                    {/*            <h5>UI/UX Design</h5>*/}
-                    {/*        </div>*/}
-                    {/*        <div className="item">*/}
-                    {/*            <img src={image4} alt="Image" />*/}
-                    {/*            <h5>System Analysis & Design</h5>*/}
-                    {/*        </div>*/}
-                    {/*        <div className="item">*/}
-                    {/*            <img src={image5} alt="Image" />*/}
-                    {/*            <h5>SQL & Data Management</h5>*/}
-                    {/*        </div>*/}
-                    {/*    </Carousel>*/}
-                    {/*</div>*/}
+                    <div className="skill-bx wow zoomIn">
+                        <h2>Skills</h2>
+                        <Carousel responsive={responsive} infinite={true}
+                                  className="owl-carousel owl-theme skill-slider">
+                            <div className="item">
+                                <img src={image1} alt="Image"/>
+                                <h5>Software Development</h5>
+                            </div>
+                            <div className="item">
+                                <img src={image2} alt="Image"/>
+                                <h5>Web Development</h5>
+                            </div>
+                            <div className="item">
+                                <img src={image3} alt="Image"/>
+                                <h5>UI/UX Design</h5>
+                            </div>
+                            <div className="item">
+                                <img src={image4} alt="Image"/>
+                                <h5>System Analysis & Design</h5>
+                            </div>
+                            <div className="item">
+                                <img src={image5} alt="Image"/>
+                                <h5>SQL & Data Management</h5>
+                            </div>
+                        </Carousel>
+                    </div>
                 </div>
             </div>
         </div>

@@ -352,7 +352,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Skills Css ************/
 .skill {
     padding: 0 0 50px 0;
-    background-color: #F5F5DC;
+    /*background-color: #F5F5DC;*/
 }
 
 .skill-bx {
@@ -393,7 +393,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {
-    padding: 80px 0;
+    padding: 20px 0 80px 0;
     position: relative;
 }
 .project h2 {
@@ -654,6 +654,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 /************ Timeline Css ************/
+.timeline-container {
+    padding: 40px 0;
+}
+
 .timeline-container h2 {
     font-size: 45px;
     font-weight: 700;

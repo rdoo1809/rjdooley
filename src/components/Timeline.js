@@ -3,7 +3,7 @@ import RDooley_Resume from '../assets/docs/RDooleyResume.pdf'
 
 export const Timeline = () => {
     return (
-        <div className="timeline-container">
+        <div id="timeline" className="timeline-container">
             <div className="row justify-content-center">
                 <div className="col-12 col-sm-8 col-lg-6">
                     <div className="section_heading text-center">

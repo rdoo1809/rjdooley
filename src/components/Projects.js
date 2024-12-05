@@ -34,10 +34,6 @@ export const Projects = () => {
         },
     ];
 
-    const cardStyle = {
-        height: "300px",
-    };
-
     return (
         <section className="project" id="projects">
             <Container>

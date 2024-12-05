@@ -6,6 +6,7 @@ import {Contact} from "./components/Contact";
 import {NavBar} from "./components/NavBar";
 import {Banner} from "./components/Banner";
 import {Projects} from "./components/Projects";
+import {Skills} from "./components/Skills";
 
 function App() {
     return (
@@ -13,8 +14,8 @@ function App() {
             <NavBar/>
             <Banner/>
             <Timeline/>
-            {/*<Skills/>*/}
             <Projects/>
+            <Skills/>
             <Contact/>
             <Footer/>
         </div>
