@@ -3,12 +3,11 @@ import RDooley_Resume from '../assets/docs/RDooleyResume.pdf'
 
 export const Timeline = () => {
     return (
-        // <section className="timeline_area section_padding_130">
         <div className="timeline-container">
             <div className="row justify-content-center">
                 <div className="col-12 col-sm-8 col-lg-6">
                     <div className="section_heading text-center">
-                        <h3>Experience & Education</h3>
+                        <h2>Experience & Education</h2>
                         <h6>A brief history of my journey thus far!</h6>
                         <div className="line"></div>
                     </div>
