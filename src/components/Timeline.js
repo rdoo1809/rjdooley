@@ -8,7 +8,7 @@ export const Timeline = () => {
                 <div className="col-12 col-sm-8 col-lg-6">
                     <div className="section_heading text-center">
                         <h2>Experience & Education</h2>
-                        <h6>A brief history of my journey thus far!</h6>
+                        <p className="timeline-tag">A brief history of my journey thus far!</p>
                         <div className="line"></div>
                     </div>
                 </div>
