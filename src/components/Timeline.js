@@ -79,7 +79,7 @@ export const Timeline = () => {
                             }}
                         >
                             <div className="timeline-icon">
-                                <i className="fa fa-briefcase" aria-hidden="true"></i>
+                                <i className="fa fa-graduation-cap" aria-hidden="true"></i>
                             </div>
                             <div className="timeline-text">
                                 <h6>Computer Programming & Analysis (commenced)</h6>
@@ -98,7 +98,7 @@ export const Timeline = () => {
                             }}
                         >
                             <div className="timeline-icon">
-                                <i className="fa fa-desktop" aria-hidden="true"></i>
+                                <i className="fa fa-briefcase" aria-hidden="true"></i>
                             </div>
                             <div className="timeline-text">
                                 <h6>Marketing Student Ambassador</h6>
@@ -118,7 +118,7 @@ export const Timeline = () => {
                             }}
                         >
                             <div className="timeline-icon">
-                                <i className="fa fa-desktop" aria-hidden="true"></i>
+                                <i className="fa fa-briefcase" aria-hidden="true"></i>
                             </div>
                             <div className="timeline-text">
                                 <h6>Executive Lead</h6>
@@ -155,7 +155,7 @@ export const Timeline = () => {
                             }}
                         >
                             <div className="timeline-icon">
-                                <i className="fa fa-desktop" aria-hidden="true"></i>
+                                <i className="fa fa-terminal" aria-hidden="true"></i>
                             </div>
                             <div className="timeline-text">
                                 <h6>🎉 Wrote First Line of Code 🎉</h6>
@@ -174,7 +174,7 @@ export const Timeline = () => {
                             }}
                         >
                             <div className="timeline-icon">
-                                <i className="fa fa-id-card" aria-hidden="true"></i>
+                                <i className="fa fa-briefcase" aria-hidden="true"></i>
                             </div>
                             <div className="timeline-text">
                                 <h6>Canada Revenue Agency</h6>
@@ -194,7 +194,7 @@ export const Timeline = () => {
                             }}
                         >
                             <div className="timeline-icon">
-                                <i className="fa fa-id-card" aria-hidden="true"></i>
+                                <i className="fa fa-globe" aria-hidden="true"></i>
                             </div>
                             <div className="timeline-text">
                                 <h6>Invictus Athletics Club</h6>
@@ -231,7 +231,7 @@ export const Timeline = () => {
                             }}
                         >
                             <div className="timeline-icon">
-                                <i className="fa fa-id-card" aria-hidden="true"></i>
+                                <i className="fa fa-briefcase" aria-hidden="true"></i>
                             </div>
                             <div className="timeline-text">
                                 <h6>SunLife Financial</h6>
@@ -268,7 +268,7 @@ export const Timeline = () => {
                             }}
                         >
                             <div className="timeline-icon">
-                                <i className="fa fa-id-card" aria-hidden="true"></i>
+                                <i className="fa fa-graduation-cap" aria-hidden="true"></i>
                             </div>
                             <div className="timeline-text">
                                 <h6>Bachelor of Arts Degree</h6>
@@ -289,7 +289,7 @@ export const Timeline = () => {
                             }}
                         >
                             <div className="timeline-icon">
-                                <i className="fa fa-id-card" aria-hidden="true"></i>
+                                <i className="fa fa-globe" aria-hidden="true"></i>
                             </div>
                             <div className="timeline-text">
                                 <h6>Western Mustangs Varsity Track & Field</h6>
