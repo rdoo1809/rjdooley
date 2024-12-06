@@ -8,7 +8,6 @@ import {HashLink} from 'react-router-hash-link';
 import {BrowserRouter as Router} from "react-router-dom";
 
 export const NavBar = () => {
-
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
@@ -20,9 +19,7 @@ export const NavBar = () => {
         setScrolled(false);
       }
     }
-
     window.addEventListener("scroll", onScroll);
-
     return () => window.removeEventListener("scroll", onScroll);
   }, [])
 
