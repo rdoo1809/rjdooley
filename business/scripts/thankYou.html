@@ -11,14 +11,13 @@
     <link href="../styles/styles.css" rel="stylesheet"/>
     <link href="../styles/queries.css" rel="stylesheet"/>
     <link href="../styles/animate.css" rel="stylesheet"/>
-    <title>Get in touch!</title>
-    <link href="../imgs/rjdfavIcon.jpeg" rel="shortcut icon"/>
+    <title>Thankyou for contacing me!</title>
 </head>
 <body>
 <!-- NavBar -->
 <nav class="nav">
     <a href="../index.html">
-        <img alt="Company logo" class="logo" src="../imgs/logo.png" style="max-height: 70px;"/>
+        <img alt="Company logo" class="logo" src="../imgs/rjdlogo.png" style="max-height: 70px;"/>
     </a>
     <button class="hamburger" id="hamburger">
         <i class="fas fa-2x fa-bars"></i>
@@ -45,43 +44,22 @@
 </nav>
 <!-- End of Nav -->
 
-<div class="first-container">
-    <section>
-        <h1 class="slogan-black">LET'S GET IN TOUCH!</h1>
-        <form action="../scripts/mail.php" class="contact-form" method="POST">
-            <label for="name">Name:</label>
-            <input id="name" name="name" type="text"/>
-            <label for="email">Email:</label>
-            <input id="email" name="email" type="email"/>
-            <label for="subject">Subject:</label>
-            <input id="subject" name="subject" type="text"/>
-            <label for="message">Message:</label>
-            <textarea cols="50" name="message" rows="5"></textarea>
-            <div
-                    class="g-recaptcha recaptcha"
-                    data-callback="callback"
-                    data-sitekey="6LdKlVskAAAAAB3ZbIzeFky6tueSJWrbJVXTuUe8"></div>
-            <!-- <input class="submit-button" type="submit" value="Send"  /> -->
-            <button
+<div class="first-container" style="background-color: black">
+    <h1 class="slogan">Thank-you for reaching out to me!</h1>
+    <div class="center-words-cont">
+        <p class="white-p">I will get back to you as soon as possible.</p>
+        <a href="../index.html">
+            <input
                     class="submit-button"
-                    disabled
-                    id="submit-button"
-                    type="submit">
-                Send
-            </button>
-        </form>
-    </section>
-    <!-- End of Form -->
+                    style="
+              background-color: red;
+              font-family: Fjalla One, sans-serif;
+            "
+                    type="submit"
+                    value="Click to return to the homepage"/>
+        </a>
+    </div>
 </div>
-<!-- data-action="LOGIN" -->
-
-<!-- JS for enabling send button -->
-<script>
-    function callback() {
-        const submitButton = document.getElementById("submit-button");
-        submitButton.removeAttribute("disabled");
-    }
-</script>
 
 <!-- Footer -->
 <footer class="footer">
@@ -99,11 +77,7 @@
 <script
         crossorigin="anonymous"
         src="https://kit.fontawesome.com/d2c157295a.js"></script>
-<script
-        async
-        defer
-        src="https://www.google.com/recaptcha/enterprise.js"></script>
-<script src="../scripts/hamburger.js"></script>
-<script defer src="../scripts/animate.js"></script>
+<script src="hamburger.js"></script>
+<script defer src="animate.js"></script>
 </body>
 </html>
