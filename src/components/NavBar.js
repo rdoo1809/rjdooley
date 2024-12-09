@@ -28,10 +28,10 @@ export const NavBar = () => {
   }
 
   return (
-    <Router>
+      <Router basename="/rjdooley">
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/rjdooley">
             <img className="logo" src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
