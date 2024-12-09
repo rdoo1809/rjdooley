@@ -1,3 +1,0 @@
-# rjdooley
-
-personal site
