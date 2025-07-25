@@ -1,5 +1,5 @@
 import 'animate.css';
-import RDooley_Resume from '../assets/docs/RDooleyResume.pdf'
+import RDooley_Resume from '../assets/docs/rdooley_resume_25.pdf'
 
 export const Timeline = () => {
     return (
@@ -10,6 +10,45 @@ export const Timeline = () => {
                         <h2>Experience & Education</h2>
                         <p className="timeline-tag">A brief history of my journey thus far!</p>
                         <div className="line"></div>
+                    </div>
+                </div>
+            </div>
+
+            {/* 2025 */}
+            <div className="single-timeline-area">
+
+                <div
+                    className="timeline-date wow fadeInLeft"
+                    data-wow-delay="0.1s"
+                    style={{
+                        visibility: "visible",
+                        animationDelay: "0.1s",
+                        animationName: "fadeInLeft",
+                    }}
+                >
+                    <p className={"year-p"}>2025</p>
+                </div>
+
+                <div className="row">
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div
+                            className="single-timeline-content d-flex wow fadeInLeft"
+                            data-wow-delay="0.3s"
+                            style={{
+                                visibility: "visible",
+                                animationDelay: "0.3s",
+                                animationName: "fadeInLeft",
+                            }}
+                        >
+                            <div className="timeline-icon">
+                                <i className="fa fa-briefcase" aria-hidden="true"></i>
+                            </div>
+                            <div className="timeline-text">
+                                <h6>Center for VR Innovation - Conestoga College</h6>
+                                <p>Unity C# Developer co-op</p>
+                                <p>January - August 2025</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
