@@ -87,8 +87,8 @@ echo '
     <script
       src="https://kit.fontawesome.com/d2c157295a.js"
       crossorigin="anonymous"></script>
-    <script src="../scripts/hamburger.js"></script>
-    <script defer src="../scripts/animate.js"></script>
+    <script src="hamburger.js"></script>
+    <script defer src="animate.js"></script>
   </body>
 </html>
 
