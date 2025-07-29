@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.3119410b.css",
-    "main.js": "/static/js/main.0560cc25.js",
+    "main.js": "/static/js/main.8bdf01ca.js",
     "static/media/heroImg.PNG": "/static/media/heroImg.1f3d3911379dd7184a9d.PNG",
     "static/media/western-banner.png": "/static/media/western-banner.1794fe001e67d9883257.png",
-    "static/media/project-img9.png": "/static/media/project-img9.f3276500956c6e868329.png",
+    "static/media/project-img10.png": "/static/media/project-img10.1c46022cf3f34cc5cc6c.png",
     "static/media/project-img2.png": "/static/media/project-img2.6a10f26176b81b669b7e.png",
     "static/media/project-img1.png": "/static/media/project-img1.98cf4e35af04fbb429ae.png",
-    "static/media/project-img8.png": "/static/media/project-img8.5b63b0c2953bf23540bc.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.fad03bfd2a71e1d8eb25.png",
+    "static/media/project-img11.png": "/static/media/project-img11.99bfbfd4c561ec52acac.png",
     "static/media/project-img3.png": "/static/media/project-img3.3cd69d7a1f33158b7349.png",
-    "static/media/project-img6.png": "/static/media/project-img6.d8ed145eb4567dc46d09.png",
+    "static/media/project-img12.png": "/static/media/project-img12.38ebb1b26acc4ade6057.png",
     "static/media/project-img4.png": "/static/media/project-img4.bc0dafcf7957b9aa5855.png",
+    "static/media/project-img13.png": "/static/media/project-img13.d6e3f5dca6473453e632.png",
     "static/media/project-img7.png": "/static/media/project-img7.aa421a6b7b440eb1b36a.png",
-    "static/media/project-img5.png": "/static/media/project-img5.733faa4725bd9a981c93.png",
+    "static/media/project-img6.png": "/static/media/project-img6.bf0b9b511fabd2113869.png",
     "static/media/softDev.png": "/static/media/softDev.7ec770695cb7ffc0a82f.png",
     "static/media/analysis.png": "/static/media/analysis.636fca47272394638284.png",
     "static/media/contact-img.png": "/static/media/contact-img.0891f1ea634187374997.png",
@@ -32,10 +33,10 @@
     "index.html": "/index.html",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.3119410b.css.map": "/static/css/main.3119410b.css.map",
-    "main.0560cc25.js.map": "/static/js/main.0560cc25.js.map"
+    "main.8bdf01ca.js.map": "/static/js/main.8bdf01ca.js.map"
   },
   "entrypoints": [
     "static/css/main.3119410b.css",
-    "static/js/main.0560cc25.js"
+    "static/js/main.8bdf01ca.js"
   ]
 }
